@@ -22,7 +22,7 @@ function calculate() {
     let result;
     let symbol; //演算子の記号(+ - × ÷)を表示用に変換
 
-    if (operator === "addtion") {
+    if (operator === "addition") {
       result = val1 + val2;
       symbol = "+";
     } else if (operator === "subtraction") {
@@ -31,7 +31,7 @@ function calculate() {
     } else if (operator === "multiplication") {
      result = val1 * val2;
      symbol = "×";
-    } else if (operator === "divishion") {
+    } else if (operator === "division") {
      if (val2 === 0) {
         formulaArea.textContent = "計算式:";
         resultArea.textContent = "0で割ることはできません。";
